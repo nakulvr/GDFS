@@ -5,6 +5,10 @@ A file storage application which virtualizes the storage of files on a distribut
 ## Why Distributed?
 The applications to provide support to large amounts of data for either storage or processing.  And thus, to be able to achieve this goal, serverless architecture is the optimal choice in the terms that the customer can always achieve or acquire his required specifications without any additional processing and improves the performance of the application by decreasing the infrastructure setup load on it.
 
+## Google Distributed File System Architecture
+
+![alt text](./images/GDFS_Architecture.png)
+
 ## Pre-requisites
 * ### Golang
   The application is designed using golang. This is because, golang provides support for concurrency by spawning seperate go-routines, which are stateful threads, and not maintaining any global-lock on the threads or  routines spawned.
